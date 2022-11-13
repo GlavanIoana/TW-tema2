@@ -1,6 +1,6 @@
 function addTokens(input, tokens){
 
-    if(typeof input !== 'string')// || !(input instanceof String)) 
+    if(typeof input !== 'string')
         {throw Error('Input should be a string');}
 
     if(input.length < 6) {
